@@ -1,0 +1,142 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linters
+.mypy_cache/
+.ruff_cache/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+scratch/
+
+# Project-specific
+.agents/
+private/
+outputs/
+models/
+
+# --- normalized ignore rules ---
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+.supabase_access_token
+.gitconfig
+# Dependencies / build
+node_modules/
+*.pyc
+.target/
+target/
+bin/
+out/
+.dart_tool/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+vendor/
+*.class
+*.iml
+coverage/
+.next/
+.nuxt/
+.msversion/
+.claude/
+.cursor/
+.private/
+.Profile/
+*.dll
+*.exe
+
+# --- normalized ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+.supabase_access_token
+.gitconfig
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+target/
+bin/
+build/
+dist/
+out/
+.dart_tool/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.coverage
+coverage/
+.next/
+.nuxt/
+*.log
+.msversion/
+.agents/
+.claude/
+.cursor/
+.private/
+*.dll
+*.exe
+*.class
+vendor/
